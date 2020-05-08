@@ -1,4 +1,4 @@
-## 部署laravel + vue
+### 部署laravel + vue
 ## 一、下载工具：composer，npm
 ## 查看下载工具镜像地址：
 ## composer:	composer config -g -l repo.packagist
