@@ -1,15 +1,15 @@
-部署laravel + vue
-一、下载工具：composer，npm
-查看下载工具镜像地址：
-composer:	composer config -g -l repo.packagist
-npm: 	npm get registry 
-配置阿里镜像：
-composer: 
-composer config -g repo.packagist composer https://mirrors.aliyun.com/composer/
+## 部署laravel + vue
+## 一、下载工具：composer，npm
+## 查看下载工具镜像地址：
+## composer:	composer config -g -l repo.packagist
+## npm: 	npm get registry 
+## 配置阿里镜像：
+## composer: 
+## composer config -g repo.packagist composer https://mirrors.aliyun.com/composer/
 （此处安装7.x版本，需要php>=7.2.5）
-npm:
-npm config set registry http://registry.npm.taobao.org/
-Ps：
+## npm:
+## npm config set registry http://registry.npm.taobao.org/
+## Ps：
 可在composer.json中设置数据源，先访问第一个，找不到再访问第二个，依次进行，packagist最后一个执行，优先执行其他。
 "repositories": {
     "packagist": {
@@ -21,7 +21,7 @@ Ps：
         "url": "https://asset-packagist.org"
     }
 }
-二、安装项目
+## 二、安装项目
 安装laravel最新版本
 composer create-project --prefer-dist laravel/laravel 项目名称
 安装vue脚手架
