@@ -117,3 +117,6 @@
     存放在 resources\js\config下
     4 静态文件
     存放在 resources\js\assets下
+### 五 启动热更新
+    webpack.mix.js 中加入mix.browserSync({proxy: '127.0.0.1:8000'}); 代理端口
+    使用 npm run watch 启动即可实现热更新
